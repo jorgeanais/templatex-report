@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{aas_macros}
+\usepackage[backend=biber, style=authoryear, mincitenames=1, maxcitenames=1, minbibnames=3, maxbibnames=3, natbib=true, uniquelist=false, sorting=nyvt, uniquename=init, giveninits]{biblatex}
+\addbibresource{references.bib}
+
+\title{Report Title}
+\author{Author Name }
+\date{April 2022}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\begin{abstract}
+    Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+\end{abstract}
+\newpage
+
+\section{Introduction}
+% Give the big picture. Establish the scope of what you did.
+Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id \citet{CG20}, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+
+\section{Related Work}
+% Include both work aimed at similar problems and work that employs similar solutions to yours.
+% Structure into subsections based on your own synthesis of themes in the related work.
+% Although there is no requirement to establish research novelty since it's a course project, you should still discuss how the previous work is similar to or different from your own work (either individually or with respect to an entire group).
+
+\section{Data and Project Task}
+% You should analyze your domain problem according to the project framework.
+% Typically data description will need to come first.
+% It is very likely that you will need to first have domain-specific descriptions.
+% Write a the tasks section by first providing a domain-specific list of tasks, and then present the abstracted version.
+
+\section{Implementation}
+% Medium-level implementation description. you must include specifics of what you did yourself versus what other implementations you built upon.
+% This section is one major divergence from standard research paper format, you need to provide much more detail than would normally be appropriate in a research context.
+
+\section{Milestone}
+% Include a list of project milestones, where the work is broken down into a series of smaller chunks that are meaningful and useful for your specific project.
+% You should also be thinking about how to break down the work into components that are appropriate for your project in specific.
+% Milestones should include four numbers: estimated number of hours to carry out each task, actual number hours it took, estimated date of completion, actual date of completion.
+
+\section{Results}
+% Should include the scenarios explored according to the project framework.
+% Walk the reader through how your results are (or not) solving the intended problem.
+% Make sure to save all Figures with lossless compression (PNG) not lossy compression (JPG) so that the text is readable not jaggy.
+
+\section{Discussion and Future Work}
+% Strengths, weaknesses, limitations (reflect on your approach).
+% Lessons learned (what do you know now that you didn't when you started?).
+% Future work (what would you do if you had more time?).
+
+
+\section{Conclusions}
+%Summarize what you've done in a way that's different from the abstract because you can count on the reader having now seen all of the content of the paper in between.
+
+\printbibliography[heading=bibintoc, title={Bibliography}]
+
+\end{document}
